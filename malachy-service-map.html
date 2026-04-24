@@ -7,7 +7,7 @@
   }
   #malachy-map {
     width: 100%;
-    height: 520px;
+    height: 600px;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -17,6 +17,7 @@
     justify-content: center;
     margin-top: 14px;
     flex-wrap: wrap;
+    padding-bottom: 10px;
   }
   .malachy-map-legend span {
     display: flex;
@@ -118,8 +119,8 @@
 
   window.initMalachyMap = function() {
     var map = new google.maps.Map(document.getElementById('malachy-map'), {
-      center: { lat: 40.5, lng: -74.3 },
-      zoom: 8,
+      center: { lat: 40.6, lng: -73.8 },
+      zoom: 7,
       styles: darkStyle,
       disableDefaultUI: false,
       zoomControl: true,
